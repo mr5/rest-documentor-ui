@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RESTDocumentor UI</title>
+    <link href='http://fonts.useso.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700'
+          rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="semantic-ui/css/semantic.min.css">
+    <link rel="stylesheet" href="css/application.css">
+</head>
+<body id="rest-documentor">
+<div class="ui fixed transparent inverted main menu">
+    <div class="container">
+
+        <div class="title item">
+            <b>REST Documentor UI</b>
+        </div>
+
+        <a class="icon item" href="/elements/divider.html"><i class="left arrow icon"></i></a>
+
+        <div class="section ui dropdown link item">
+            <span class="count">3 of 12</span>
+
+            <div class="menu">
+
+                <div class="item">
+                    <a href="/elements/button.html">1. Button</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/divider.html">2. Divider</a>
+                </div>
+
+                <div class="active item">
+                    <a href="/elements/header.html">3. Header</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/icon.html">4. Icon</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/image.html">5. Image</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/input.html">6. Input</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/label.html">7. Label</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/loader.html">8. Loader</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/progress.html">9. Progress</a>
+                </div>
+
+                <div class="item">
+                    <a href="/modules/reveal.html">10. Reveal</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/segment.html">11. Segment</a>
+                </div>
+
+                <div class="item">
+                    <a href="/elements/step.html">12. Step</a>
+                </div>
+
+            </div>
+        </div>
+
+        <a class="icon item" href="/elements/icon.html"><i class="right arrow icon"></i></a>
+
+        <div class="right menu">
+            <div class="vertically fitted borderless item">
+                <iframe src="http://ghbtns.com/github-btn.html?user=mr5&amp;repo=rest-documentor&amp;type=watch&amp;count=true"
+                        allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+            </div>
+            <a class="popup designer icon item" data-content="Designer Mode">
+                <i class="basic paint icon"></i>
+            </a>
+            <a class="popup developer icon item" data-content="Developer Mode">
+                <i class="terminal icon"></i>
+            </a>
+
+            <a class="popup icon github item" data-content="View project on Github"
+               href="https://github.com/mr5/rest-documentor">
+                <i class="icon github"></i>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div id="main" class="container">
+    <div class="peek">
+        <div class="ui vertical pointing secondary menu">
+            <a class="active item">Users</a>
+            <a class="item">Elements</a>
+            <a class="item">States</a>
+            <a class="item">Variations</a>
+            <a class="item">Groups</a>
+        </div>
+    </div>
+    <h2 class="ui dividing header">Users</h2>
+
+    <div class="example">
+        <h4 class="ui header">Form:</h4>
+
+        <p>
+            Forms always include fields, and fields always contain form elements. Fields themselves may also include:
+            <a href="/elements/input.html">inputs</a>, standard form fields, <a href="/elements/label.html">labels</a>,
+            <a href="/modules/dropdown.html">selection dropdowns</a>, textareas, as well as:
+            <a href="/modules/checkbox.html">checkboxes</a>, and <a href="/collections/message.html">message blocks</a>.
+        </p>
+
+        <p>Validation messages use <a href="/collections/message.html">messages</a> which are formatted for use inside
+            forms.</p>
+
+        <div class="ui ignored warning message">
+            <p>If you are looking for form validation, you should check out <a href="/modules/form.html">form
+                validation</a>.</p>
+        </div>
+        <div class="ui ignored info message">
+            <p>This example uses a <a href="/elements/segment.html">ui segment</a> to add the padding and background
+                color. This is not required.</p>
+        </div>
+        <div class="ui form segment">
+            <div class="field">
+                <label>Username</label>
+
+                <div class="ui left labeled icon input">
+                    <input type="text" placeholder="Username">
+                    <i class="user icon"></i>
+
+                    <div class="ui corner label">
+                        <i class="icon asterisk"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <label>Password</label>
+
+                <div class="ui left labeled icon input">
+                    <input type="password">
+                    <i class="lock icon"></i>
+
+                    <div class="ui corner label">
+                        <i class="icon asterisk"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="ui error message">
+                <div class="header">We noticed some issues</div>
+            </div>
+            <div class="ui blue submit button">Login</div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="js/underscore-min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/backbone-min.js"></script>
+<script src="js/way.min.js"></script>
+<script src="semantic-ui/javascript/semantic.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/application.js"></script>
+
+</html>

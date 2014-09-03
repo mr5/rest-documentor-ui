@@ -1,0 +1,29 @@
+{
+    "name"        : "rest-documentor-ui",
+    "description" : "rest document ui",
+    "homepage"    : "http://github.com/mr5/rest-documentor-ui",
+    "main": [
+        "build/**/*"
+    ],
+    "author": {
+        "name" : "mr.5",
+        "web"  : "http://github.com/mr5"
+    },
+    "dependencies": {
+        "semantic"      : "0.*"
+    },
+    "keywords": [
+        "semantic",
+        "ui",
+        "css3",
+        "framework"
+    ],
+    "license" : [
+        "http://semantic-ui.mit-license.org/"
+    ],
+    "ignore": [
+        "node",
+        "src",
+        "docs"
+    ]
+}
